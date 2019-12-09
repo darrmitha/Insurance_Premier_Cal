@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             myData.premiumAmount = getPremium()
             display()
 
+            
         }
 
         btnReset.setOnClickListener {
