@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
         btnCalculate.setOnClickListener(){
             myData.premiumAmount = getPremium()
             display()
-
-            
         }
 
         btnReset.setOnClickListener {
